@@ -1,7 +1,11 @@
+/* 엘리스 이력서 */
+/* 폰트 */
 @import url(//font.elice.io/EliceDigitalBaeum.css);
 html, body {
     font-family: "Elice Digital Baeum",sans-serif;
   }
+
+/* 상단 메뉴 */
 nav{
     background-color: gray;
 }
@@ -15,6 +19,8 @@ nav ul li a{
     color: white;
     text-decoration: none;
 }
+
+/* 본문 */
 main{
     margin: 10px;
 }
@@ -27,6 +33,8 @@ h2{
 h3{
     font-size: 25px;
 }
+
+/* 하단 내용 */
 footer{
     background-color: #cacaca;
     margin-top: 30px;
