@@ -17,6 +17,7 @@ nav ul li{
 nav ul li a{
     width: 33.3333%;
     height: 60px;
+    font-size: 17px;
 
     display: flex;
     justify-content: center;
@@ -27,14 +28,22 @@ nav ul li a{
 
     float: left;
 }
+
 #nav1{
     background-color: rgb(155, 154, 154);
+    transition: background-color 0.5s;
 }
 #nav2{
     background-color: rgb(134, 133, 133);
+    transition: background-color 0.5s;
 }
 #nav3{
     background-color: rgb(114, 114, 114);
+    transition: background-color 0.5s;
+}
+#nav1:hover, #nav2:hover, #nav3:hover{
+    background-color: rgb(189, 189, 189);
+    transform: scale(1.05);
 }
 
 
@@ -61,7 +70,14 @@ h3{
     /* flex-wrap: wrap;
     align-content: center; */
 }
-
+#profile{
+    background-color: aliceblue;
+    transition: background-color 0.5s;
+}
+#profile:hover{
+    background-color: rgb(225, 240, 253);
+    transform: scale(1.1);
+}
 /* 하단 내용 */
 footer{
     background-color: #cacaca;
