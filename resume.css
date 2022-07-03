@@ -6,23 +6,43 @@ html, body {
   }
 
 /* 상단 메뉴 */
-nav{
-    background-color: gray;
+nav ul{
+    margin: 0;
+    padding: 0;
 }
+
 nav ul li{
     list-style: none;
 }
 nav ul li a{
-    margin: 5px;
+    width: 33.3333%;
+    height: 60px;
 
-    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
     color: white;
     text-decoration: none;
+
+    float: left;
 }
+#nav1{
+    background-color: rgb(155, 154, 154);
+}
+#nav2{
+    background-color: rgb(134, 133, 133);
+}
+#nav3{
+    background-color: rgb(114, 114, 114);
+}
+
 
 /* 본문 */
 main{
+    clear: both;
     margin: 10px;
+    padding-top: 10px;
 }
 h1{
     font-size: 40px;
@@ -32,6 +52,14 @@ h2{
 }
 h3{
     font-size: 25px;
+}
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+    
+    /* flex-wrap: wrap;
+    align-content: center; */
 }
 
 /* 하단 내용 */
