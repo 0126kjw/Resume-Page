@@ -44,6 +44,7 @@ nav ul li a{
 #nav1:hover, #nav2:hover, #nav3:hover{
     background-color: rgb(189, 189, 189);
     transform: scale(1.05);
+    transition: 0.5s linear;
 }
 
 
@@ -66,7 +67,7 @@ h3{
     display: grid;
     grid-template-columns: 1fr 1fr;
     width: 100%;
-    
+    margin-top: 20px;
     /* flex-wrap: wrap;
     align-content: center; */
 }
@@ -94,4 +95,25 @@ footer{
     background-color: #cacaca;
     margin-top: 30px;
     padding: 10px;
+    color: #9d9b9b;
+}
+
+@media (max-width: 768px){
+    nav ul li a{
+        width: 100%;
+    }
+    #nav1:hover, #nav2:hover, #nav3:hover{
+        transform: scale(1.02);
+        transition: 0.5s linear;
+    }
+    main h1,h2,h3, .first{
+        text-align: center;
+    }
+    .image{
+        display: block;
+        margin: auto;
+    }
+    footer{
+        text-align: center;
+    }
 }
